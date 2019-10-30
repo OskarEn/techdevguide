@@ -9,7 +9,7 @@ public class Solution {
 
         char[] compressed = compressedForm.toCharArray();
         for(int i = 0; i < compressed.length ; i++ ) {
-            Stack brackets;
+
 
             if(isOpeningBracket(compressed[i])) {
 
